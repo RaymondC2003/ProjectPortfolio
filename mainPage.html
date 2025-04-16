@@ -1,79 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My HTML Project</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raymond Choy | Home</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="corner top-left"></div>
+  <div class="corner bottom-right"></div>
 
-    <center>
-    
-    <header>
-        <h1>Welcome! I Am Raymond Choy.</h1>
-        <p>I am a Canadian based programmer that works in back-end engineering.<br>I specialize in creating server scripts and APIs.</p>
-        <nav>
-            <ul>
-                <li style="display:inline;"> <a href="aboutMe.html">About Me</a> | </li>
-                <li style="display:inline;"> <a href="Projects.html">Projects</a> | </li>
-                <li style="display:inline;"> <a href="Contact.html">Contact</a> | </li>
-                <li style="display:inline;"> <a href="Goals.html">Goals</a> | </li>
-                <li style="display:inline;"> <a href="Achievements.html">Achievements</a> </li>
-            </ul>
-        </nav>
-    </header>
+  <nav>
+    <a href="mainPage.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Work</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    <div>
-        <img src="projectVisuals/Pic1.jpg" alt="" width="480">
+  <div class="container">
+    <div class="welcome">
+      <h1>Welcome</h1>
+      <p>
+        I'm Raymond Choy, a back-end engineer based in Toronto, Canada. I have a passion for designing and implementing efficient soltuions for complex problems.
+      </p>
     </div>
-    
-    <section id="services">
-        <h2>Skill Summary</h2>
-        <table border="1">
-            <tr>
-                <th>Skills</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td>Core Programming</td>
-                <td>Proficiency in Python.</td>
-            </tr>
-            <tr>
-                <td>API Development</td>
-                <td>Designed APIs for communication between frontend and backend.</td>
-            </tr>
-        </table>
-    </section>
+    <div class="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <a href="#">Snipmind<br>Google Chrome AI Extension</a>
+        <a href="#">Crypto Investment Tracker</a>
+        <a href="#">Music Player<br>Using Spotify API</a>
+      </div>
+    </div>
+  </div>
 
-    <form>
-
-        <h2>Visit My Contact Page Or Fill In The Form Below</h2>
-
-        <label for="name"> Name:</label>
-        <input type="text" id="name" name="name" required> <br><br>
-
-        <label for="email"> Email:</label>
-        <input type="email" id="email" name="email" required> <br><br>
-
-        <label for="comments">Message:</label> <br>
-        <textarea id="comments" name="comments" rows="4" cols="50"></textarea> <br><br>
-
-        <button type="submit">Submit</button>
-
-    </form>
-
-        <nav>
-            <ul>
-                <li style="display:inline;"> <a href="https://github.com/RaymondC2003/">GitHub</a> | </li>
-                <li style="display:inline;"> <a href="https://instagram.com/">Instagram</a></li>
-            </ul>
-        </nav>
-
-    <footer>
-        <p>&copy; 2025 Raymond Choy</p>
-    </footer>
-
-    </center>
-
+  <footer>©2025 raymondchoy</footer>
 </body>
 </html>
